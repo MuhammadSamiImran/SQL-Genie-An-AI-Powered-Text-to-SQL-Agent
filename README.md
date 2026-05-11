@@ -1,14 +1,14 @@
-# SQL-Genie: AI-Powered Text-to-SQL Agent 🧞‍♂️
+# SQL-Genie: AI-Powered Text-to-SQL Agent 
 
 **SQL-Genie** is an intelligent natural language interface for structured databases. It allows non-technical users to query business data using plain English, automatically transforming conversational questions into optimized SQL queries, interactive data tables, and dynamic visualizations.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Writing SQL is often a barrier for business managers and non-technical stakeholders. **SQL-Genie** removes this friction by acting as an **AI Data Analyst**. By leveraging the high-speed inference of the **Groq API** and the reasoning capabilities of **LLaMA 3.3 70B**, the system provides a seamless bridge between human language and relational databases.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -24,7 +24,7 @@ Writing SQL is often a barrier for business managers and non-technical stakehold
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Schema Injection:** The system automatically extracts the database schema (tables, columns, and relationships) and injects it into the LLM prompt to prevent hallucinations.
 2. **SQL Generation:** LLaMA 3.3 70B converts the English query into a precise SQLite `SELECT` statement.
@@ -34,7 +34,7 @@ Writing SQL is often a barrier for business managers and non-technical stakehold
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Natural Language to SQL:** No coding required; talk to your data like a human.
 - **Dual-Agent Logic:** Separate LLM calls for query generation and visualization strategy.
@@ -44,7 +44,7 @@ Writing SQL is often a barrier for business managers and non-technical stakehold
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 This project was developed with a modular approach to ensure clean code and scalability:
 
@@ -55,7 +55,7 @@ This project was developed with a modular approach to ensure clean code and scal
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 Follow these steps to get **SQL-Genie** running locally:
 

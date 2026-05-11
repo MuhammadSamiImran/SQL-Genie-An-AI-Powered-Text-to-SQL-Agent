@@ -77,4 +77,4 @@ Bashpython database.py
 Bashstreamlit run app.py
 
 ### Disclaimer
-This project is built for demonstration purposes using fictional business data. It is intended to showcase the capabilities of Text-to-SQL agents and should be configured with additional security layers for production use with sensitive data.
+*This project is built for demonstration purposes using fictional business data. It is intended to showcase the capabilities of Text-to-SQL agents and should be configured with additional security layers for production use with sensitive data.*

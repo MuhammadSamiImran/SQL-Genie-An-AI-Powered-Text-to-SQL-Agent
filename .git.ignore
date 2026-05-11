@@ -1,0 +1,23 @@
+# Secret keys — never upload
+.env
+
+# Database file — too large and rebuilds automatically
+sample_data/
+
+# Python cache — auto generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment — not needed
+venv/
+.venv/
+env/
+
+# OS files — not needed
+.DS_Store
+Thumbs.db
+
+# VS Code settings — optional, personal preference
+.vscode/
